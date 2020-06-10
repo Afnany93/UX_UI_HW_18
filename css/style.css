@@ -1,3 +1,14 @@
+body{
+    background-color: #FAFBFF;
+    width:100%;
+    height:100%; 
+    margin:0;
+    padding:0;
+    background-image: url('images/page-bg.svg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+}
 .nav{
     background-color: #FFFFFF;
     display: flex;
@@ -5,7 +16,10 @@
     justify-content: space-between;
     padding:0;
     margin:0;
-    height: 57.95px;
+    height: 8%;
+    position: fixed;
+    width:100%;
+    z-index: 50;
 }
 
 .logo{
@@ -13,6 +27,7 @@
     display:flex;
     align-items: center;
     justify-content: flex-start;
+    margin-left: 3%;
 }
 
 .social{
@@ -20,71 +35,88 @@
     align-items: center;
     justify-content: flex-end;
     justify-content: space-around;
+    margin-right: 3%;
     width:190px;
     height:50%;
 }
 
 .heroImg{
-    width: 670px;
-    position:relative;
-}
+    margin:0;
+    width:auto;
+    height:50vw;
+    display:flex;
+    vertical-align: top;
+    box-sizing: border-box;
+    min-height: 38vw;
 
+}
+/* gradient original width="654.72" height="533.739"*/
 #gradient{
     position:absolute;
-    left: 660px;
-    top: 80px;
+    margin-left: 45vw;
+    margin-top: 11vw;
+    z-index: -1;
+    height:auto;
+    display:flex;
+    justify-content: flex-end;
+    
 }
 
 #picture{
     position:absolute;
-    left: 740px;
-    top: -30px;
+    margin-left: 53vw;
+    margin-top: 3vw;
+    z-index: 0;
+    height:auto;
+    display:flex;
+    justify-content: flex-end;
 }
 
 .container{
-    width: 450px;
+    width: auto;
 
     
 }
 
 h4{
-    font-size: 40px;
+    font-size: 3.7vw;
     font-family: 'open sans';
     font-style: bold;
     position: absolute;
-    top:58px;
-    left:360px;
+    margin-top: 9.5vw;
+    margin-left:25vw;
     color:#314970;
     letter-spacing: 2px;
     
 }
 h1{
-    font-size: 120px;
+    font-size: 8vw;
     font-family: 'open sans';
     font-style: bold;
     color:#314970;
     position: absolute;
-    top:62px;
-    left:360px;
-    line-height: 120px;
-    letter-spacing: 1px;
+    margin-top:14vw;
+    margin-left:25vw;
+    line-height: 8vw;
+    letter-spacing: .5vw;
 }
 h5{
-    font-size: 40px;
+    font-size: 2.7vw;
     font-family: 'open sans';
     font-style: bold;
     position: absolute;
-    left:470px;
-    top:330px;
+    margin-left: 34vw;
+    margin-top:30vw;
     text-align: right;
     color:#314970;
     width: fit-content;
     letter-spacing: 2px;
 }
 
+
 #CTA{
     position: absolute;
-    width: 345px;
+    width: 100vw;
     display: flex;
     align-items: center;
     justify-content: space-between; 
@@ -92,10 +124,11 @@ h5{
 
 .discover{
     position: absolute;
-    left: 616px;
-    top: 500px;
-    letter-spacing: 1px;
-    font-size: 20px;
+    margin-left: 43.4vw;
+    margin-top: 37vw;
+    font-size: 1.5vw;
+    letter-spacing: .1em;
+    line-height: 2vw;
     font-family: 'open sans';
     font-style: bold;
     text-decoration: none;
@@ -105,10 +138,14 @@ h5{
 
 .arrow{
     position: absolute;
-    left: 616px;
-    top: 550px;  
+    margin-left: 43.4vw;
+    margin-top:39vw;  
     color:black;
 }
+
+
+
+/*Side Nav*/
 
 .side{
     display: inline-block; 
@@ -117,6 +154,7 @@ h5{
     position:absolute;
     left: 700px;
     top: 100px;  
+    position: fixed;
 
 }
 
@@ -137,3 +175,322 @@ h5{
     left: 625px;
     top: 340px;  
 }
+
+
+
+/*Case Studies*/
+
+#caseStudies{
+    height: auto;
+    position: relative;
+    box-sizing: border-box;
+    min-height: 56.25vw;
+    margin-left:5vw;
+}
+h6{
+    font-size: 4vw;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-style: bold;
+    color:black;
+    margin-top:55% 
+    align-items: center;
+    justify-content: flex-start;
+    margin-left:3%;
+    margin-bottom: 6vw;
+}
+.honestImg{
+    display:flex;
+    justify-content: flex-start;
+    float: left;
+    margin-right:4vw;
+    margin-left:3vw;
+    max-width:100%;
+    height:auto;
+    
+}
+.titleHonest{
+    color:#FACEBF;   
+}
+.viewProject{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    justify-content: space-between; 
+}
+.viewProjectButton{
+    font-size: 2vw;
+    letter-spacing: .1em;
+    line-height: 2vw;
+    font-family: 'open sans';
+    padding-top:4vw;
+    font-style: bold;
+    text-decoration: none;
+    width: fit-content;
+    color:black;
+    margin-left:20vw;
+}
+
+.arrow2{
+    width: fit-content;
+    color:black;
+    margin-left:25vw;
+    padding-top:1vw;
+}
+.title{
+    font-size: 4.5vw;
+    line-height: 5.8vw;
+    margin: 0;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-style: bold;    
+}
+
+.dpsImg{
+    display:flex;
+    justify-content: flex-end;
+    float: right;
+    margin-left:4vw;
+    margin-right:3vw;
+    max-width:100%;
+    height:auto;
+}
+.para{
+    font-size: 1.1vw;
+    letter-spacing: .1em;
+    line-height: 2vw;
+    margin: 0;
+    font-family: 'open sans';
+    
+}
+.titleDps{
+    color:#EDAE3A;
+    margin-left:4vw;
+}
+.miniTitle{
+    font-size: 2vw;
+    letter-spacing: .2em;
+    line-height: 3vw;
+    font-family: 'open sans';
+    
+}
+.miniTitleDps{
+    margin-left:4vw;   
+}
+.paraDps{
+    margin-left:4vw;
+}
+.caseStudyPadding{
+    margin-top:10vw;
+}
+.viewProject3{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between; 
+}
+.viewProjectButton3{
+    font-size: 2vw;
+    letter-spacing: .1em;
+    line-height: 2vw;
+    font-family: 'open sans';
+    padding-top:4vw;
+    font-style: bold;
+    text-decoration: none;
+    width: fit-content;
+    color:black;
+    margin-left:4vw;
+}
+
+.arrow3{
+    width: fit-content;
+    color:black;
+    margin-left:4vw;
+    padding-top:1vw;
+}
+
+/*hello*/
+#hello{
+    height: auto;
+    position: relative;
+    box-sizing: border-box;
+    min-height: 56.25vw;
+    margin-left:9vw;
+    margin-top: 10vw;
+}
+.titleCenturyGothic{
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif; 
+    font-size: 4.5vw;
+    line-height: 4.167vw;
+    margin: 0;
+    font-style: bold; 
+}
+.titleThin{
+    font-size: 4.5vw;
+    line-height: 5.8vw;
+    margin: 0;
+    font-family: 'open sans';   
+    font-style: normal;
+}
+
+.blue{
+    margin-top: 1vw;
+    margin-bottom: 0;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif; 
+    font-weight: bold;
+    font-size: 8vw;
+    color:#C5D6FE;
+}
+
+.para2{
+    padding-top: 2.5vw;
+    font-size: 1.5vw;
+    letter-spacing: .1em;
+    line-height: 3vw;
+    margin: 0;
+    font-family: 'open sans';
+    
+}
+
+.boldFont{
+    padding-top: 3.5vw;
+    font-size: 1.5vw;
+    letter-spacing: .1em;
+    line-height: 3vw;
+    margin: 0;
+    font-family: 'open sans';
+    font-style: bold; 
+    
+}
+
+/*match*/
+#connect{
+    position: relative;
+    box-sizing: border-box;
+    margin-top: 8vw;
+
+}
+.match{
+    margin-top: 1vw;
+    margin-bottom: 0;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif; 
+    font-weight: bold;
+    font-size: 8vw;
+}
+.matchThin{
+    margin-top: 1vw;
+    margin-bottom: 0;
+    font-family: 'open sans';
+    font-size: 8vw;
+}
+.letsConnect{
+    margin-top: 1vw;
+    margin-bottom: 0;
+    font-family: 'open sans';
+    font-size: 2vw;
+}
+.btnContainer{
+    transform: translate(-50%,-50%);
+    height: 20vw;
+    position: relative;
+    box-sizing: border-box;
+    min-height: 20vw;
+    margin-left:24vw;
+    margin-top: 8vw;
+}
+.btn{
+    border:none;
+    margin-top: 10vw;
+    margin-left: 10vw;
+    padding:1.5vw;
+    width:20vw;
+    font-family: 'open sans';
+    font-size: 1.5vw;
+    border-radius: 5px;
+    cursor:pointer;
+    color: black;
+    background-size:200%;
+    background-image: linear-gradient(to bottom right,#C5D6FE,#EDC7FB);
+    transition:.6s;
+}  
+
+.btn:hover{
+    background-position:right;
+    color:white;
+}
+
+.footerbtn{
+    font-family: 'open sans';
+    font-size: 1.5vw;
+    margin-right:1vw;
+}
+.social2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 3%;
+    width:20vw;
+    margin-bottom: 5vw;
+    
+}
+
+.cv{
+    font-family: 'open sans';
+    font-size: 1.5vw;
+    color:black;
+    font-weight: bold;
+    margin-left:5vw;
+}
+
+/* media querry*/
+
+@media only screen and (max-width: 600px){
+  
+    #gradient{
+        width:50vw;
+        height:40vw;
+        margin-left: 80vw;
+    }
+    
+    #picture{
+        width:50vw;
+        height:60vw;
+        margin-left: 75vw;
+    }
+
+
+
+    h4{
+        
+        margin-top: 9.5vw;
+        margin-left:20vw;
+       
+        
+    }
+    h1{
+        
+        margin-left:20vw;
+        
+    }
+    h5{
+        
+        margin-left: 27vw;
+        margin-top:30vw;
+        
+    }
+    
+    .discover{
+        
+        margin-left: 38vw;
+        margin-top: 37vw;
+        
+    }
+    
+    .arrow{
+        
+        margin-left: 38vw;
+        margin-top:39vw;  
+        width:2vw;
+    }
+  }
+      
+     
