@@ -192,7 +192,6 @@ h6{
     font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
     font-style: bold;
     color:black;
-    margin-top:55% 
     align-items: center;
     justify-content: flex-start;
     margin-left:3%;
@@ -358,7 +357,7 @@ h6{
     line-height: 3vw;
     margin: 0;
     font-family: 'open sans';
-    font-style: bold; 
+    font-weight: bold; 
     
 }
 
@@ -491,6 +490,52 @@ h6{
         margin-top:39vw;  
         width:2vw;
     }
+    .social2{
+        
+        width:40vw;
+    }
+
+    h6{
+        font-size: 5vw;
+        align-content: center;
+    }
+    .honestImg{
+        float: right;
+    }
+    .title{
+        font-size: 8.5vw;
+        line-height: 10vw;
+    }
+    .miniTitle{
+        font-size: 4vw;
+        
+    }
+    .para{
+        font-size: 3vw;
+        letter-spacing: .1em;
+        line-height: 5vw;
+        
+    }
+
+    .para2{
+        font-size: 4vw;
+        line-height: 5.4vw;
+        
+        
+    }
+
+    .boldFont{
+        font-size: 4vw;
+        font-weight: bold; 
+        line-height: 6vw;
+        
+    }
+    .blue{
+        
+        font-size: 15vw;
+        
+    }
   }
+
       
      
